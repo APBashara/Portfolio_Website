@@ -51,10 +51,12 @@
 
 <header>
     <h1>Alex Bashara</h1>
+    <h2><a href="https://www.linkedin.com/in/alex-bashara/">Linkedin</a> GitHub</h2>
 </header>
 
 <nav>
     <a href="#about">About Me</a>
+    <a href="#experience">Experiences</a>
     <a href="#projects">Projects</a>
     <a href="#files">Downloadable Files</a>
 </nav>
@@ -64,44 +66,10 @@
     <p>Hello, my name is Alex Bashara. I am currently a Senior at Iowa State University majoring in Computer Engineering. I plan to graduate with a bachelor's degree in Computer Engineering 
         in December of 2024. I am extermely interested in new technologies and embedded systems. I also have a passion for cars and am the Electrical Team Lead on the  Formula SAE team at Iowa State. 
         I love to learn and gain experience in different fields and am always up to new challenges.</p>
-</section>
-
-<section id="projects">
-    <h2>Projects</h2>
-    <div class="project">
-        <h3>Real-Time Telemetry System</h3>
-        <p>When I joined the Cyclone Racing Formula SAE Team in 2021, the team had never had a wireless telemetry system. Another engineer and I set out to build one. In the first year, we managed to create
-            a basic AVR based system that was able to collect data from the ECU, send it wirelessly in real time, and display it on a computer. In the second year, we improved the system by creating a custom 
-            PCB as well as adding a dash display for the driver and a new sensors such as brake temp and accelerometers. In the third year, we moved the system to an ARM based platform, creating custom microcontroller
-            PCBs. This allowed us much more control over the funcionality of the system as well as allowed us implement a RTOS to help manage our Real-Time requirements.
-        </p>
-        <p><a href="https://github.com/Cyclone-Racing">Link to Cyclone Racing's GitHub</a></p>
-    </div>
-    <div class="project">
-        <h3>Simulated MIPS VHDL Processor</h3>
-        <p>For this project, my group and I were tasked with creating three different architectures for a MIPS Processor: a single cycle structure, a software pipeline, and a hardware pipeline. We started 
-            with the single cycle architecture by creating a VHDL file for each component of the processor. We then moved on to the software pipeline, which was a bit more challenging. We had to create a
-            control unit that would be able to handle the different stages of the pipeline. Finally, we moved on to the hardware pipeline. This was the most challenging part of the project. We had to create
-            a control unit that would be able to handle the different stages of the pipeline. We also had to create a forwarding unit to handle data hazards.
-        </p>
-        <!-- <p><a href="#">Link to Project 2</a></p> Need to add an image or something here--> 
-    </div>
-    <div class="project">
-        <h3>Vivado Projects</h3>
-        <p>One of the classes that I choose to take was Embedded Systems Design. In this class, other engineers and I were tasked with creating multiple FPGA based projects including an NES Emulator, Drone 
-            Controller, Camera System, and an Embedded Linux Driver. For these projects we used a Zynq 7000 SoC and Vivado to create the projects. We also used the Xilinx Vitis SDK to write the embedded software.
-            This class was a great learning experience and I was able to learn a lot about embedded systems and FPGA design.
-        </p>
-        <!-- <p><a href="#">Link to Project 2</a></p> Need to add an image here as well -->
-    </div>
-    <div class="project">
-        <h3>Multicore Interfence Analysis</h3>
-        <p>This project was my senior desgin project that was overseen by Boeing. The goal of this project was to identify architectural interfence channels, bound the worst case execution time, and show how 
-            effective different interference mitigation techniques are in a Xen hypervisor. We used a multicore ARM processor and ran multiple tasks on it to see how they would interfere with each other. We 
-            used a combination of open source tools as well as some self written programs to stress the system and monitor the performance.
-        </p>
-        <!-- <p><a href="#">Link to Project 2</a></p> TODO: Add Stuff -->
-    </div>
+    <h2>Career Goals</h2>
+    <p>After I graduate, I am looking into possible Master's programs or would like to go into industry working on Embedded Systems. I am very passionate about cars, so the automotive industry is my goal. 
+        I also am interested in the aerospace industry and would love to work on embedded systems for aircraft or rockets. I have many career goals and plan to work very hard to achieve my goals.
+    </p>
 </section>
 
 <section id="experience">
@@ -129,14 +97,63 @@
     </div>
 </section>
 
+<section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+        <h3>Multicore Interfence Analysis</h3>
+        <p>This project was my senior desgin project that was overseen by Boeing. The goal of this project was to identify architectural interfence channels, bound the worst case execution time, and show how 
+            effective different interference mitigation techniques are in a Xen hypervisor. We used a multicore ARM processor and ran multiple tasks on it to see how they would interfere with each other. We 
+            used a combination of open source tools as well as some self written programs to stress the system and monitor the performance. For this project, I was the Embedded Systems Engineer and helped with 
+            the hardware bringup as well as worked on the cache interfence channel by writing interference generators and studying ARM architectures. I learned a lot about shared resouces and how they can 
+            interfere with each other as well as ARM architectures. This project allows for Boeing to validate multicore systems and understand how they can be used in safety critical systems.
+        </p>
+        <p><a href="https://sddec24-09.sd.ece.iastate.edu/">Multicore Operational Analysis Tooling</a></p>
+    </div>
+    <div class="project">
+        <h3>Real-Time Telemetry System</h3>
+        <p>When I joined the Cyclone Racing Formula SAE Team in 2021, the team had never had a wireless telemetry system. Another engineer and I set out to build one. In the first year, we managed to create
+            a basic AVR based system that was able to collect data from the ECU, send it wirelessly in real time, and display it on a computer. In the second year, we improved the system by creating a custom 
+            PCB as well as adding a dash display for the driver and a new sensors such as brake temp and accelerometers. In the third year, we moved the system to an ARM based platform, creating custom microcontroller
+            PCBs. This allowed us much more control over the funcionality of the system as well as allowed us implement a RTOS to help manage our Real-Time requirements.
+        </p>
+        <p><a href="https://github.com/Cyclone-Racing">Link to Cyclone Racing's GitHub</a></p>
+    </div>
+    <div class="project">
+        <h3>Simulated MIPS VHDL Processor</h3>
+        <p>For this project, my group and I were tasked with creating three different architectures for a MIPS Processor: a single cycle structure, a software pipeline, and a hardware pipeline. We started 
+            with the single cycle architecture by creating a VHDL file for each component of the processor. We then moved on to the software pipeline, which was a bit more challenging. We had to create a
+            control unit that would be able to handle the different stages of the pipeline. Finally, we moved on to the hardware pipeline. This was the most challenging part of the project. We had to create
+            a control unit that would be able to handle the different stages of the pipeline. We also had to create a forwarding unit to handle data hazards.
+        </p>
+        <!-- <p><a href="#">Link to Project 2</a></p> Need to add an image or something here--> 
+    </div>
+    <div class="project">
+        <h3>Vivado Projects</h3>
+        <p>One of the classes that I choose to take was Embedded Systems Design. In this class, other engineers and I were tasked with creating multiple FPGA based projects including an NES Emulator, Drone 
+            Controller, Camera System, and an Embedded Linux Driver. For these projects we used a Zynq 7000 SoC and Vivado to create the projects. We also used the Xilinx Vitis SDK to write the embedded software.
+            This class was a great learning experience and I was able to learn a lot about embedded systems and FPGA design.
+        </p>
+        <div class="project">
+            <h3>Petalinux Bringup</h3>
+            <p>After spending some time with Vivado and learning about FPGAs from various experiences, I wanted to work on something for myself. I orderd an Avnet MPSoC Ultrascale+ development board and set out to 
+                create a Petalinux image for it. I was able to get the board up and running with a custom image and was able to run some basic programs on it. This was a great learning experience and I was able to 
+                learn a lot about the boot process and how to create a custom image. I want to create a larger project with this board in the future and am excited to see what I can do with it.
+            </p>
+        <!-- <p><a href="#">Link to Project 2</a></p> Need to add an image here as well -->
+    </div>
+</section>
+
 <section id="files">
     <h2>Downloadable Files</h2>
     <div class="downloadable-files">
-        <a href="#">Resume</a>
-        <a href="#">Cover Letter</a>
-        <a href="#">Essays</a>
+        <a href="files/Resume.pdf">Resume</a>
+        <a href="files/Ethics_Essay.pdf">Ethics Essays</a>
     </div>
 </section>
+
+<footer>
+    <p>Contact Information: alexbashara2002@gmail.com | Phone: 402-699-1326</p>
+</footer>
 
 </body>
 </html>
